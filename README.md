@@ -1,6 +1,9 @@
-# MMM-Attack:Scalable Multi-Agent Jailbreaking via Shared Memory
+# LongMem-RAT: Long-Term Memory for Cross-Attack Red Teaming
 
-This project  presents an innovative and novel multi-turn attack using multi-agent approach with multi-context capabilities.
+a multi-agent
+red-teaming framework equipped with long term memory that accumulates, consolidates,
+and reuses insights from past attacks across
+sessions.
 
 ## Project Structure
 
