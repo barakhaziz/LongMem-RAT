@@ -43,6 +43,7 @@ def cosine_sim_matrix(a: np.ndarray, b: np.ndarray) -> np.ndarray:
 
     if a.size == 0 or b.size == 0:
         return np.zeros((a.shape[0], b.shape[0]), dtype=np.float32)
+    return a @ b.T
 
 def _select_novel_lessons(
     cur_texts,
